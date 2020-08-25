@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.huspot.tests.LoginPageTest">
+        <methods>
+          <include name="checkingShowPwdTest"/>
+          <include name="tearDown"/>
+          <include name="logIntest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.huspot.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
